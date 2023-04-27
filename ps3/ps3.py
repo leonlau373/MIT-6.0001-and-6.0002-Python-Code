@@ -414,6 +414,8 @@ def play_game(word_list):
         print("Total score for this hand:", hand_score)
         score = score + hand_score
         print("----------")
+        print("Total score for all hand so far:", score)
+        print("----------")
         #If we can still replay
         if can_play_again == True:
             #Ask for replay
@@ -427,6 +429,8 @@ def play_game(word_list):
                 hand_score = max(hand_score,hand_score2)
                 score = score + hand_score
                 print("Total score for this hand:", hand_score)
+                print("----------")
+                print("Total score for all hand so far:", score)
                 print("----------")
 
     #Finish the game and show the total score
