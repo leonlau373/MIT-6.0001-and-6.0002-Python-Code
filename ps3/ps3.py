@@ -446,3 +446,4 @@ def play_game(word_list):
 if __name__ == '__main__':
     word_list = load_words()
     play_game(word_list)
+    # Uncomment the following line to test
