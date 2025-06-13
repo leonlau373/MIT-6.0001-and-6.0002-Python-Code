@@ -121,3 +121,4 @@ b = Fractions(1,6)
 print(b - a)
 print(a/b + b/a)
 
+print(a/b + Fractions.inverse(a/b))
